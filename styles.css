@@ -1,0 +1,81 @@
+/* CSS Selectors*/
+
+body {
+  background-image: url("https://i.pinimg.com/originals/12/af/3b/12af3b7117e21558802b844efdd128bb.png");
+}
+
+/*Tag Name*/
+h1 {
+  color: red;
+}
+
+/* Class*/
+
+.link {
+  background-color: cyan;
+  padding: 3px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+/* ID */
+
+#myp {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+/* p {
+  color: red;
+}
+
+div p {
+  color: blue;
+}
+
+.mydiv p {
+  color: green;
+} */
+
+/* Pseudo  Classes */
+
+/* Unvisited Link*/
+a:link {
+  color: black;
+}
+
+/* Visited Link*/
+
+a:visited {
+  color: tomato;
+}
+
+/* mouse hover*/
+
+a:hover {
+  color: aqua;
+}
+
+img {
+  filter: grayscale();
+}
+
+img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+
+/* img:hover {
+  transform: scale(1.2);
+} */
+
+/*********************************************/
+
+p {
+  display: inline-block;
+  background-color: aqua;
+  height: 200px;
+}
